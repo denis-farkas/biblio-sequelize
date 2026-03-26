@@ -1,4 +1,4 @@
-import { commentDB } from "../database/db.provider.js";
+import { commentDB } from "../database/comment.database.js";
 
 const createComment = async (req, res) => {
   try {

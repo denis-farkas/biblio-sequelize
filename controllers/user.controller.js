@@ -1,6 +1,6 @@
 import isEmail from "validator/lib/isEmail.js";
 import bcrypt from "bcrypt";
-import { UserDB } from "../database/db.provider.js";
+import { UserDB } from "../database/user.database.js";
 import { jwtSign } from "../middlewares/jwt.mdlwr.js";
 
 // Fonction pour lire les informations de tous les utilisateurs
