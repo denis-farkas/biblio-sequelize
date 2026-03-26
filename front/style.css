@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(180deg, #f4f8fb 0%, #fefcf6 100%);
+  min-height: 100vh;
+}
+
+.hero-wrap {
+  background:
+    radial-gradient(circle at 90% 20%, #d9eef9 0%, transparent 30%),
+    radial-gradient(circle at 10% 80%, #ffeec9 0%, transparent 35%), #f8fbff;
+}
+
+.api-box {
+  min-width: 280px;
+}
+
+#authState {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+.book-card {
+  border: 1px solid #e9ecef;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  background: #fff;
+  height: 100%;
+}
+
+.book-card h3 {
+  font-size: 1.1rem;
+}
+
+.api-log {
+  background: #0b1020;
+  color: #d9e4ff;
+  border-radius: 0.5rem;
+  padding: 0.9rem;
+  min-height: 130px;
+  font-size: 0.85rem;
+  white-space: pre-wrap;
+}
+
+.book-cover {
+  max-width: 280px;
+  width: 100%;
+  border-radius: 0.8rem;
+  border: 1px solid #ececec;
+}
